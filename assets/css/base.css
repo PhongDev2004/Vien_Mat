@@ -184,14 +184,14 @@ ul{
     align-items: center;
     width: 680px;
     margin: auto;
-    padding: 100px 0px 48px;
+    padding: 60px 0px 48px;
     /* text-align: center; */
 }
 .container-text__title-extra{
     display: block;
     width: 100%;
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 3rem !important;
+    font-weight: 500 !important;
     font-family: 'Satisfy', cursive;
     color: var(--primary-color);
     line-height: 6rem;
@@ -202,8 +202,8 @@ ul{
 .container-text__title-main{
     display: block;
     width: 100%;
-    font-size: 6.4rem;
-    font-weight: 600;
+    font-size: 6.4rem !important;
+    font-weight: 700 !important;
     color: var(--red-color);
     text-transform: capitalize;
     line-height: 8rem;
@@ -212,8 +212,8 @@ ul{
 .container-text__title-items {
     display: block;
     width: 100%;
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 1.8rem !important;
+    font-weight: 300 !important;
     color: var(--text-color);
     text-transform: capitalize;
     line-height: 2.4rem;

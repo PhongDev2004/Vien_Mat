@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/img/ximages/favicon.png">
     <title>welcome to my website :))</title>
     <link rel="shortcut icon" type="image/jpg" href="./assets/img/ảnh 11.jpg" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/grid.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -139,8 +140,8 @@
             </div>
             <div class="mobile-header__logo">
                 <a itemprop="url" href="#" style="height: 36px" class="mobile-header__logo-img">
-                    <img itemprop="image" src="https://matvietnga.com/pic/banner/logo_viet_637095286743568048.png"
-                        width="230" height="73" alt="Mobile Logo">
+                    <img itemprop="image" src="https://matviet-nga.com/media/ximages/logo.png" width="230" height="73"
+                        alt="Mobile Logo">
                 </a>
             </div>
             <div class="mobile-user">
@@ -196,8 +197,7 @@
             <div class="header-logo center">
                 <a itemprop="url" href="#" class="header-logo__link">
                     <img itemprop="image" class="header-logo__link-img"
-                        src="https://matvietnga.com/pic/banner/logo_viet_637095286743568048.png" width="301" height="96"
-                        alt="logo">
+                        src="https://matviet-nga.com/media/ximages/logo.png" width="301" height="96" alt="logo">
                 </a>
             </div>
             <ul class="header-list center">
@@ -246,7 +246,7 @@
         </nav>
 
 
-        <div class="container">
+        <div class="container-fluid">
             <!-- phần slide -->
             <div class="grid slider">
                 <div class="grid">
@@ -335,54 +335,61 @@
             </div>
 
             <!-- Phần chất lượng -->
-            <div class="grid wide">
-                <div class="container__quality">
-                    <div class="row">
-                        <div class="container__quality-img">
-                            <img src="./assets/img/banner/Group 261.png" alt="doctor">
-                        </div>
+            <div class="container">
+                <div class="row product gx-5">
+                    <div class="col-lg-7 col-md-6 product__image">
+                        <img src="./assets/img/banner/Group 261.png" alt="">
+                    </div>
+                    <div class="col-lg-5 col-md-6 product__info">
+                        <div class="content__product">
+                            <div class="content__text">
+                                <h3 class="container-text__title-extra__content">Viện Mắt Việt - Nga</h3>
+                                <h1 class="container-text__title-content">Chúng tôi cho bạn sự <span>TIN CẬY</span></h1>
 
-                        <div class="container-text__wrap-quality">
-                            <div class="container-text__wrap">
-                                <h3 class="container-text__title-extras">Viện Mắt Việt - Nga</h3>
-                                <h2 class="container-text__title-base">Chúng tôi cho bạn sự <span>TIN CẬY</span></h2>
-                                <p class="container-text__items">Tỉ mỉ, chính xác trong thăm khám, điều trị hiệu quả. Ân
-                                    cần, thấu</p>
-                                <p class="container-text__items">cảm trong chăm sóc các bệnh nhân. Chúng tôi luôn tâm
-                                    niệm</p>
-                                <p class="container-text__items">làm tất cả những gì tốt nhất để chăm sóc cho sức khoẻ
-                                    đôi mắt</p>
-                                <p class="container-text__items">bạn và những người thân yêu.</p>
+                                <p class="container-text__title-items__content">Tỉ mỉ, chính xác trong thăm khám, điều
+                                    trị hiệu quả. Ân cần, thấu cảm trong chăm sóc các bệnh nhân. Chúng tôi luôn tâm niệm
+                                    làm tất cả những gì tốt nhất để chăm sóc cho sức khoẻ đôi mắt bạn và những người
+                                    thân yêu.</p>
                             </div>
-                            <div class="row">
-                                <div class="col l-4 m-6 c-12">
-                                    <div class="icons-qulity">
-                                        <img src="./assets/img/icons/Vector_1.png" alt="icons">
-                                        <h3>03+</h3>
-                                        <p>Cơ sở</p>
+                            <div class="content__dv">
+                                <div class="d-flex justify-content-between align-items-center text-center">
+                                    <div class="content__dv-list my-4">
+                                        <div class="content__dv-list__img">
+                                            <img src="./assets/img/icons/Vector_1.png" alt="icons">
+                                        </div>
+                                        <div class="content__dv-list__items">
+                                            <h2 class="text-dv__h2">03+</h2>
+                                            <h4 class="text-dv__h4">Cơ sở trong nước</h4>
+                                        </div>
+                                    </div>
+                                    <div class="content__dv-list my-4">
+                                        <div class="content__dv-list__img">
+                                            <img src="./assets/img/icons/Vector_2.png" alt="icons">
+                                        </div>
+                                        <div class="content__dv-list__items">
+                                            <h2 class="text-dv__h2">47652+</h2>
+                                            <h4 class="text-dv__h4">Phẫu thuật Thành công</h4>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col l-4 m-6 c-12">
-                                    <div class="icons-qulity">
-                                        <img src="./assets/img/icons/Vector_2.png" alt="icons">
-                                        <h3>47652+</h3>
-                                        <p>Ca phẫu thuật thành công</p>
+                                <div class="d-flex justify-content-between align-items-center text-center">
+                                    <div class="content__dv-list my-4">
+                                        <div class="content__dv-list__img">
+                                            <img class="" src="./assets/img/icons/Vector_3.png" alt="icons">
+                                        </div>
+                                        <div class="content__dv-list__items">
+                                            <h2 class="text-dv__h2">30+</h2>
+                                            <h4 class="text-dv__h4">Năm kinh nghiệm</h4>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col l-4 m-6 c-12">
-                                    <div class="icons-qulity">
-                                        <img src="./assets/img/icons/Vector_3.png" alt="icons">
-                                        <h3>30+</h3>
-                                        <p>Năm kinh nghiệm</p>
-                                    </div>
-                                </div>
-                                <div class="col l-4 m-6 c-12">
-                                    <div class="icons-qulity">
-                                        <img src="./assets/img/icons/Vector_4.png" alt="icons">
-                                        <h3>60384+</h3>
-                                        <p>Năm kinh nghiệm</p>
+                                    <div class="content__dv-list my-4">
+                                        <div class="content__dv-list__img">
+                                            <img src="./assets/img/icons/Vector_4.png" alt="icons">
+                                        </div>
+                                        <div class="content__dv-list__items">
+                                            <h2 class="text-dv__h2">60384+</h2>
+                                            <h4 class="text-dv__h4">Năm kinh nghiệm</h4>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -396,7 +403,7 @@
                 <div class="container__service">
                     <div class="row">
                         <div class="container-text__wrap">
-                            <h2 class="container-text__title-extra">Dịch vụ nổi bật</h2>
+                            <h2 class="container-text__title-servise">Dịch vụ nổi bật</h2>
                             <p class="container-text__title-items">Tại Viện Mắt Việt - Nga chúng tôi cung cấp những dịch
                                 vụ về <br> mắt với những máy móc hiện đại, tân tiến nhất.</p>
                         </div>
@@ -448,7 +455,7 @@
             <div class="grid wide">
                 <div class="container__service">
                     <div class="container-text__wrap">
-                        <h2 class="container-text__title-extra">Bác sĩ - chuyên gia</h2>
+                        <h2 class="container-text__title-servise">Bác sĩ - chuyên gia</h2>
                         <p class="container-text__title-items">Tại Viện Mắt Việt - Nga chúng tôi có những chuyên gia
                             <br> Nhãn khoa hàng đầu Châu Âu.
                         </p>
@@ -510,41 +517,175 @@
             </div>
 
             <!-- Phần comment -->
-            <div class="grid wide">
-                <div class="container__service">
-                    <div class="container-text__wrap">
-                        <h2 class="container-text__title-extra">KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI</h2>
+            <!-- <div class="part__comment">
+                <div class="container mt-5">
+                    <div class="comment__header">
+                        <h2 class="container-text__title-servise">KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI</h2>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col l-4 m-6 c-12">
-                        <div class="container-comment__city-body--img">
-                            <img src="./assets/img/comment/Card_Hovered.png" alt="image">
+                    <div class="row comment gx-5">
+                        <div class="col-lg-5 col-md-6 comment__img">
+                            <img src="./assets/img/comment/Card_Hovered.png" alt="IGM">
                         </div>
-                    </div>
-                    <div class="col l-4 m-6 c-12">
-                        <div class="container-comment__city-body--title">
-                            <div class="container-text__wrap">
-                                <h2 class="container-text__title-base">Hương Tràm</h2>
-                                <p class="container-text__items">Ca sĩ</p>
-                                <p class="container-text__items">
-                                    Cuối cùng Tràm đã tìm lại được đôi mắt Full HD sau bao <br>
-                                    nhiêu năm đeo kính cận. Quá trình mổ cận diễn ra <br>
-                                    nhanh chóng và chuyên nghiệp, đặc biệt là không hề đau <br>
-                                    chút nào. Tràm xin gửi lời cảm ơn đến các chuyên <br>
-                                    gia bác sĩ, nhân viên Bệnh viện Mắt Quốc Việt - Nga đã <br>
-                                    đồng hành cùng Tràm suốt nửa năm, từ khi điều trị viêm <br>
-                                    giác mạc sâu đến khi mổ cận thị tìm lại đôi mắt sáng <br>
-                                    khỏe” - Nữ ca sĩ chia sẻ.
+                        <div class="col-lg-7 col-md-6 comment__content d-flex align-items-center">
+                            <div class="comment__content-text">
+                                <h3 class="pb-1">Hương Tràm</h3>
+                                <span>Ca sĩ</span>
+                                <p class="pt-4">
+                                    Cuối cùng Tràm đã tìm lại được đôi mắt Full HD sau bao nhiêu năm đeo kính cận. Quá
+                                    trình mổ cận diễn ra nhanh chóng và chuyên nghiệp, đặc biệt là không hề đau chút
+                                    nào. Tràm xin gửi lời cảm ơn đến các chuyên gia bác sĩ, nhân viên Bệnh viện Mắt Quốc
+                                    Việt - Nga đã đồng hành cùng Tràm suốt nửa năm, từ khi điều trị viêm giác mạc sâu
+                                    đến khi mổ cận thị tìm lại đôi mắt sáng khỏe” - Nữ ca sĩ chia sẻ.
                                 </p>
+                                <span class="container-text__title-continued">Chi tiết<img src="./assets/img/icons/muitenr.svg"
+                                    alt="muiten"></span>
                             </div>
                         </div>
-
+                    </div>
+                    <div class="row comment-img gx-5 d-flex justify-content-around align-items-center">
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+                            <img class="shadow-sm" src="./assets/img/comment/user_1.png" alt="User">
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+                            <img class="shadow-sm" src="./assets/img/comment/user_2.png" alt="User">
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+                            <img class="shadow-sm" src="./assets/img/comment/user_3.png" alt="User">
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+                            <img class="shadow-sm" src="./assets/img/comment/user_4.png" alt="User">
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <section id="page7">
+                <div class="x_r" id="p2_e1">
+                    <h2>CẢM NHẬN
+                        <span>của khách hàng</span>
+                    </h2>
+                </div>
+                <div class="x_r" id="p7_e1">
+                    <div class="x_bg"></div>
+                    <div class="x_r custom_item">
+                        <p>"Hòa phải làm việc nhiều và liên tục với ánh sáng điện tử, hoạt động trong môi trường thiếu sáng,
+                            thói quen làm việc, nghỉ ngơi không hợp lý đã khiến Hòa bị cận thi. Cuối cùng mình đã trút bỏ gánh
+                            nặng cận thị của mình tại Bệnh viện Mắt Quốc tế Việt - Nga. Hòa được Chuyên gia Nhãn khoa hàng đầu
+                            Châu Âu trực tiếp khám và tư vấn. Thực sự quá nhanh, quá nhẹ nhàng, chỉ với 23s là xong 1 mắt rồi.
+                            Hòa xin gửi lời cảm ơn chân thành nhất đến Bệnh viện Mắt Quốc tế Việt - Nga và toàn thể Y Bác sĩ tại
+                            viện giúp Hoà có một đôi mắt sáng khoẻ nhất" </p>
+                        <img src="./assets/img/ximages/kh1.jpg" alt="">
+                        <h3>Hòa Minzy</h3>
+                        <b>Ca sỹ</b>
+                    </div>
+                    <div class="x_r custom_item">
+                        <p class="danhgia">"Sau khi phẫu thuật Phương Oanh đã đạt thị lực 10/10 thật đúng như kỳ vọng, phương
+                            pháp Relex Smile rất nhẹ nhàng, nhanh chóng và hoàn toàn không đau. Ngay khi bước xuống bàn mổ, mình
+                            đã có thể nhìn rõ mọi thứ xung quanh mà không cần kính hỗ trợ. Chỉ vỏn vẹn với 23s/mắt Oanh đã tìm
+                            lại được đôi mắt sáng khoẻ. Chân thành cảm ơn các bác sĩ và nhân viên tại Bệnh viện Mắt Quốc tế Việt
+                            - Nga đã tận tình hỗ trợ cho Oanh rất nhiều."<br><br></p>
+                        <img src="./assets/img/ximages/kh2.jpg" alt="">
+                        <h3>Phương Oanh</h3>
+                        <b>Diễn viên</b>
+                    </div>
+                    <div class="x_r custom_item">
+                        <p>"Không có gì ngoài sự hài lòng, từ khâu tiếp đón đến quá trình mổ mắt đều diễn ra cực kỳ chuyên
+                            nghiệp. Chỉ vỏn vẹn chưa đầy 10 phút Phúc đã tìm lại được đôi mắt sáng khoẻ như bây giờ. Phúc xin
+                            chân thành cảm ơn các chuyên gia bác sĩ và nhân viên tại viện đã hỗ trợ nhiệt tình. Chúc Bệnh viện
+                            Mắt Quốc tế Việt - Nga ngày càng thành công"<br><br><br><br></p>
+                        <img src="./assets/img/ximages/kh4.jpg" alt="">
+                        <h3>Đức Phúc</h3>
+                        <b>Ca sỹ</b>
+                    </div>
+                </div>
+            </section>
+            <section id="p_8">
+                <div class="x_bg"></div>
+                <div class="x_e" id="p_8_e_0">
+                    <img src="./assets/img/ximages/uudai.jpg" alt="">
+                    <p>Đăng ký ngay để trở thành 1 trong 200 khách hàng đầu tiên nhận được ưu đãi này
+                        <br><br>
+                        <button class="btns-header__link-items blue shakeMe btn" id="chitiet">XEM CHI TIẾT</button>
+                    </p>
+                </div>
+                <div class="x_e" id="p_8_e_1">
+                    <h2>Đặt lịch khám</h2>
+                    <span>để nhận nhiều ưu đãi</span>
+                </div>
+                <div class="x_e p8_form" id="p_8_e_2">
+                    <div class="x_r" id="forminput">
+                        <input type="text" class="required" id="iname" placeholder="Họ và tên *">
+                        <input type="number" class="required" id="iphone" placeholder="Số điện thoại *">
+                        <input type="email" id="iemail" placeholder="Email">
+                        <input type="date" class="required" id="idate" placeholder="Ngày tới khám *">
+                        <select id="idiachi" class="required">
+                            <option value="0" selected="selected" disabled="disabled">Chọn cơ sở khám *</option>
+                            <option value="Hà Nội">Hà Nội</option>
+                            <option value="Hạ Long">Hạ Long</option>
+                            <option value="TP.HCM">TP.HCM</option>
+                        </select>
+                        <textarea placeholder="Mong muốn của bạn" class="required" id="imess"></textarea>
+                        <div id="sendbox">
+                            <button class="btns-header__link-items red shakeMe btn" id="chitiet">ĐẶT LỊCH</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotline-phone-ring-wrap">
+                    <div class="hotline-phone-ring">
+                        <div class="hotline-phone-ring-circle"></div>
+                        <div class="hotline-phone-ring-circle-fill"></div>
+                        <div class="hotline-phone-ring-img-circle"> <a href="tel:0949888803" class="pps-btn-img"> <img
+                                    src="./assets/img/images/hotline-icon.png" alt="so dien thoai" width="50"> </a></div>
+                    </div>
+                    <div class="hotline-bar">
+                        <a href="tel:0949888803"> <span class="text-hotline">0949 888 803</span> </a>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="footer">
+                <div class="x_r" id="ft_page">
+                    <div class="ft_left">
+                        <img src="./assets/img/ximages/logo.png" alt="">
+                        <p>Bạn sẽ “KHỎE MẠNH – TINH TƯỜNG – TỰ TIN” để bước vào cuộc sống mới sau khi đã lựa chọn phẫu thuật
+                            Lasik tại Bệnh viện Mắt Quốc Tế Việt – Nga.</p>
+                        <div class="x_r" id="">
+                            <img src="./assets/img/ximages/map.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="ft_mid">
+                        <h3>Thông tin liên hệ</h3>
+                        <p><b>HÀ NỘI<br></b>- Nhà C2, Làng Quốc Tế Thăng Long, phường Dịch Vọng, quận Cầu Giấy, Hà Nội</p>
+                        <p>- Hotline: <a href="tel:0921888801">0921.8888.01</a> - <a href="tel:0921888802">0921.8888.02</a></p>
+                        <p><b>HẠ LONG<br></b>- Nhà A6, Khu đô thị Monbay, Phường Hồng Hải, TP. Hạ Long, Quảng Ninh</p>
+                        <p>- Hotline: <a href="tel:0931333581">0931.33.35.81</a> - <a href="tel:02037308688">0203.730.8688</a>
+                        </p>
+        
+                    </div>
+                    <div class="ft_right">
+                        <h3>SOCIAL</h3>
+        
+                        <div class="fb-page" data-href="https://www.facebook.com/benhvienmatquoctevietnga/" data-tabs=""
+                            data-width="" data-height="" data-small-header="false" data-adapt-container-width="true"
+                            data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/benhvienmatquoctevietnga/" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/benhvienmatquoctevietnga/">Bệnh Viện Mắt Quốc Tế Việt - Nga Hà
+                                    Nội</a>
+                            </blockquote>
+                        </div>
+                        <hr color="#67bdff">
+                        <div class="link_social">
+                            <a href="https://www.facebook.com/benhvienmatquoctevietnga/"><img src="./assets/img/images/icon_fb.png"
+                                    alt=""></a>
+                            <a href="https://www.youtube.com/channel/UC49a-vjkct1RgCkkX5bp_wQ"><img
+                                    src="./assets/img/images/icon_youtube.png" alt=""></a>
+                            <a target="_blank" href="https://zalo.me/0949888803"><img src="./assets/img/images/icon_zalo.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </div>
-    </div>
     </div>
 
 </body>
