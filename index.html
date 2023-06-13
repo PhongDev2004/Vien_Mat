@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to my website :))</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/ảnh 11.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div class="travel" style="box-sizing:border-box">
+        <!-- phần header trên mobile -->
+        <div class="mobile-header">
+            <div class="mobile-header__bar">
+                <input type="checkbox" hidden id="mobile-nav-appear" class="click-header__bar-icon">
+                <label for="mobile-nav-appear" class="header__bar-icon"></label>
+                <input type="checkbox" hidden id="mobile-nav-appear" class="click-header__bar-icon">
+                <label for="mobile-nav-appear" class="mobile-header__list">
+                    <li class="mobile-header__item">
+                        <label for="subnav-appear">
+                            Trang chủ
+                            <i class="fas fa-chevron-right mobile-header__item-icon-right"></i>
+                        </label>
+
+                        <input type="checkbox" hidden id="subnav-appear" class="click-subnav">
+                        <ul class="mobile-header__item-list">
+                            <li class="mobile-header__item-item">
+                                <a href="#">Trang chủ</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Trang chủ</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Trang chủ</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="mobile-header__item">
+                        <label for="subnav-appear2">
+                            Giới thiệu
+                            <i class="fas fa-chevron-right mobile-header__item-icon-right"></i>
+                        </label>
+
+                        <input type="checkbox" hidden id="subnav-appear2" class="click-subnav2">
+                        <ul class="mobile-header__item-list">
+                            <li class="mobile-header__item-item">
+                                <a href="#">Giới thiệu</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Giới thiệu</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-header__item">
+                        <label for="subnav-appear3">
+                            Dịch vụ
+                            <i class="fas fa-chevron-right mobile-header__item-icon-right"></i>
+                        </label>
+
+                        <input type="checkbox" hidden id="subnav-appear3" class="click-subnav3">
+                        <ul class="mobile-header__item-list">
+                            <li class="mobile-header__item-item">
+                                <a href="#">Dịch vụ</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Dịch vụ</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Dịch vụ</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Dịch vụ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mobile-header__item">
+                        <label for="subnav-appear4">
+                            Tin tức - Khuyến mãi
+                            <i class="fas fa-chevron-right mobile-header__item-icon-right"></i>
+                        </label>
+
+                        <input type="checkbox" hidden id="subnav-appear4" class="click-subnav4">
+                        <ul class="mobile-header__item-list">
+                            <li class="mobile-header__item-item">
+                                <a href="#">Tin tức - Khuyến mãi</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Tin tức - Khuyến mãi</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Tin tức - Khuyến mãi</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Tin tức - Khuyến mãi</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="mobile-header__item">
+                        <label for="subnav-appear5">
+                            Liên hệ
+                            <i class="fas fa-chevron-right mobile-header__item-icon-right"></i>
+                        </label>
+
+                        <input type="checkbox" hidden id="subnav-appear5" class="click-subnav4">
+                        <ul class="mobile-header__item-list">
+                            <li class="mobile-header__item-item">
+                                <a href="#">Liên hệ</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Liên hệ</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Liên hệ</a>
+                            </li>
+                            <li class="mobile-header__item-item">
+                                <a href="#">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </li>
+                </label>
+            </div>
+            <div class="mobile-header__logo">
+                <a itemprop="url" href="#" style="height: 36px" class="mobile-header__logo-img">
+                    <img itemprop="image" src="https://matvietnga.com/pic/banner/logo_viet_637095286743568048.png"
+                        width="230" height="73" alt="Mobile Logo">
+                </a>
+            </div>
+            <div class="mobile-user">
+                <label for="mobile-user-appear">
+                    <span class="mobile-user__icon">
+                        <i class="fas fa-user"></i>
+                    </span>
+                </label>
+            </div>
+            <input type="checkbox" hidden id="mobile-user-appear" class="click-user-icon">
+            <label for="mobile-user-appear" class="mobile-tablet__form">
+                <div class="mobile-tablet__ovelay">
+                </div>
+            </label>
+            <input type="checkbox" hidden id="mobile-user-appear" class="click-user-icon">
+            <div class="form-wrap">
+                <div class="mobile-tablet__form-wrap">
+                    <div class="mobile-tablet__form-btn">
+                        <button class="mobile-tablet__form-login">Đặt lịch tiểu phẫu</button>
+                        <button class="mobile-tablet__form-login mobile-tablet__form-login--active">Đặt lịch khám
+                            bệnh</button>
+                    </div>
+                </div>
+                <h class="mobile-tablet__form-tilte">Đặt lịch tại đây</h>
+                <p class="mobile-tablet__form-description">đặt lịch khám của bạn trong một vài bước đơn giản.</p>
+                <div class="mobile-tablet__form-input">
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="mobile-tablet__form-input-body" required placeholder="Họ và Tên">
+                </div>
+                <div>
+                    <div class="mobile-tablet__form-input">
+                        <i class="fas fa-lock"></i>
+                        <input type="date" class="mobile-tablet__form-input-body" required placeholder="Ngày khám">
+                    </div>
+                    <div class="mobile-tablet-check-wrap">
+                        <input type="radio" name="Remember me" id="check" class="mobile-tablet__form-check">
+                        <label for="check">Remember Me</label>
+                    </div>
+                    <a class="mobile-tablet__form-text">Thay đổi lịch khám !</a>
+                    <div class="mobile-tablet__form-sig-in-wrap center">
+                        <button class="mobile-tablet__form-sign-in-btn" type="submit" value="SEND">Đặt lịch</button>
+                    </div>
+                </div>
+                <label for="mobile-user-appear" class="mobile-tablet__form-closed">
+                    <span>exit</span>
+                    <i class="fas fa-times"></i>
+                </label>
+            </div>
+        </div>
+
+        <!-- Phần header PC, Laptop -->
+        <nav class="header hide-on-mobile-tablet">
+            <div class="header-logo center">
+                <a itemprop="url" href="#" class="header-logo__link">
+                    <img itemprop="image" class="header-logo__link-img"
+                        src="https://matvietnga.com/pic/banner/logo_viet_637095286743568048.png" width="301" height="96"
+                        alt="logo">
+                </a>
+            </div>
+            <ul class="header-list center">
+                <li class="header-item center  text--light">
+                    <a href="#" class="header-item__text">Trang chủ</a>
+                </li>
+
+                <li class="header-item center">
+                    <a href="#" class="header-item__text">Giới thiệu</a>
+                </li>
+
+                <li class="header-item center">
+                    <a href="#" class="header-item__text">Dịch vụ</a>
+                </li>
+
+                <li class="header-item center">
+                    <a href="#" class="header-item__text">Tin tức - Khuyến mãi</a>
+                </li>
+
+                <li class="header-item center">
+                    <a href="#" class="header-item__text">Kiến thức</a>
+                </li>
+
+                <li class="header-item center">
+                    <a href="#" class="header-item__text">Tuyển dụng</a>
+                </li>
+
+                <li class="header-item center">
+                    <a href="#" class="header-item__text">Liên hệ</a>
+                </li>
+            </ul>
+
+            <ul class="header-icon center">
+                <li class="header-icon-item center">
+                    <a href="#" class="header-icon__link">
+                        <img src="./assets/img/icons/flag_icon1.png" alt="flag">
+                    </a>
+                </li>
+
+                <li class="header-icon-item center">
+                    <a href="#" class="header-icon__link">
+                        <img src="./assets/img/icons/flag_icon2.png" alt="flag">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="container">
+            <!-- phần slide -->
+            <div class="grid slider">
+                <div class="grid">
+                    <div class="slide-wrap">
+                        <div class="slide-banner">
+                            <div class="slide-banner__img"></div>
+
+                            <div class="slide-banner__text">
+                                <h2 class="slide-banner__title-1">Ư U Đ Ã I T H Á N G</h2>
+                                <h2 class="slide-banner__title-2">CHỌN SMILE XÓA CẬN ĐẾN MẮT VIỆT - NGA</h2>
+                                <p class="slide-banner__description">
+                                    <span>CHỈ</span> 14,500,000 VNĐ
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="next-wrap__btn">
+                            <div class="slide-banner__next slide-banner__next-left center">
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="slide-banner__next slide-banner__next-right center">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phần header-btns -->
+
+            <div class="grid wide">
+                <div class="container-btns">
+                    <div class="row">
+
+                        <div class="col l-4 m-6 c-12">
+                            <div class="btns-header">
+                                <a class="btns-header__link" href="#">
+                                    <button class="btns-header__link-items red shakeMe btn">
+                                        <i class="fa-solid fa-phone-volume"></i>
+                                        Hotline: 0949-8888-03
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12 favourite-oder-tablet">
+                            <div class="btns-header">
+                                <a class="btns-header__link" href="#">
+                                    <button class="btns-header__link-items blue shakeMe btn">
+                                        <i class="fa-solid fa-user-doctor"></i>
+                                        Gửi thông tin tư vấn miễn phí
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-6 c-12">
+                            <div class="btns-header">
+                                <a class="btns-header__link" href="#">
+                                    <button class="btns-header__link-items red shakeMe btn">
+                                        <i class="fa-solid fa-calendar"></i>
+                                        Đặt lịch khám ngay
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phần welcome -->
+            <div class="grid wide">
+                <div class="container__welcome">
+                    <div class="row">
+                        <div class="container-text__wrap">
+                            <h3 class="container-text__title-extra">C H À O M Ừ N G Đ Ế N V Ớ I</h3>
+                            <h2 class="container-text__title-main">VIỆN MẮT VIỆT NGA</h2>
+                            <p class="container-text__title-items">Bệnh viện Mắt Quốc tế Việt – Nga được thành lập trong
+                                Chương trình <br> Hợp tác Nhãn Khoa Việt Nam – Liên bang Nga đã được Bộ Y Tế hai <br>
+                                nước ký kết ngày 12 tháng 4 năm 2007. </p>
+                            <span class="container-text__title-continued">Xem thêm <img
+                                    src="./assets/img/icons/muitenr.svg" alt="muiten"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phần chất lượng -->
+            <div class="grid wide">
+                <div class="container__quality">
+                    <div class="row">
+                        <div class="container__quality-img">
+                            <img src="./assets/img/banner/Group 261.png" alt="doctor">
+                        </div>
+
+                        <div class="container-text__wrap-quality">
+                            <div class="container-text__wrap">
+                                <h3 class="container-text__title-extras">Viện Mắt Việt - Nga</h3>
+                                <h2 class="container-text__title-base">Chúng tôi cho bạn sự <span>TIN CẬY</span></h2>
+                                <p class="container-text__items">Tỉ mỉ, chính xác trong thăm khám, điều trị hiệu quả. Ân
+                                    cần, thấu</p>
+                                <p class="container-text__items">cảm trong chăm sóc các bệnh nhân. Chúng tôi luôn tâm
+                                    niệm</p>
+                                <p class="container-text__items">làm tất cả những gì tốt nhất để chăm sóc cho sức khoẻ
+                                    đôi mắt</p>
+                                <p class="container-text__items">bạn và những người thân yêu.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="icons-qulity">
+                                        <img src="./assets/img/icons/Vector_1.png" alt="icons">
+                                        <h3>03+</h3>
+                                        <p>Cơ sở</p>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="icons-qulity">
+                                        <img src="./assets/img/icons/Vector_2.png" alt="icons">
+                                        <h3>47652+</h3>
+                                        <p>Ca phẫu thuật thành công</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="icons-qulity">
+                                        <img src="./assets/img/icons/Vector_3.png" alt="icons">
+                                        <h3>30+</h3>
+                                        <p>Năm kinh nghiệm</p>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="icons-qulity">
+                                        <img src="./assets/img/icons/Vector_4.png" alt="icons">
+                                        <h3>60384+</h3>
+                                        <p>Năm kinh nghiệm</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phần dịch vụ -->
+            <div class="grid wide">
+                <div class="container__service">
+                    <div class="row">
+                        <div class="container-text__wrap">
+                            <h2 class="container-text__title-extra">Dịch vụ nổi bật</h2>
+                            <p class="container-text__title-items">Tại Viện Mắt Việt - Nga chúng tôi cung cấp những dịch
+                                vụ về <br> mắt với những máy móc hiện đại, tân tiến nhất.</p>
+                        </div>
+                    </div>
+                    <div class="continued__service">
+                        <span class="container-text__title-continued">Xem hết <img src="./assets/img/icons/muitenr.svg"
+                                alt="muiten"></span>
+                    </div>
+                    <div class="container__service-img">
+                        <div class="container__service-list__img">
+                            <div class="row service-row">
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="container__service-img__items">
+                                        <img src="./assets/img/service/img_1.png" alt="items">
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="container__service-img__items">
+                                        <img src="./assets/img/service/img_2.png" alt="items">
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="container__service-img__items">
+                                        <img src="./assets/img/service/img_3.png" alt="items">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container__service-list__img">
+                            <div class="row service-row">
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="container__service-img__items">
+                                        <img src="./assets/img/service/img_4.png" alt="items">
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="container__service-img__items">
+                                        <img src="./assets/img/service/img_5.png" alt="items">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phần experience -->
+            <div class="grid wide">
+                <div class="container__service">
+                    <div class="container-text__wrap">
+                        <h2 class="container-text__title-extra">Bác sĩ - chuyên gia</h2>
+                        <p class="container-text__title-items">Tại Viện Mắt Việt - Nga chúng tôi có những chuyên gia
+                            <br> Nhãn khoa hàng đầu Châu Âu.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="container-exper__city">
+                            <div class="star-favorite">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="container-exper__city-body">
+                                <div class="container-exper__city-img container-exper__city-img1"></div>
+                            </div>
+                        </div>
+                        <div class="container-exper__city-name">
+                            <a href="#">
+                                Tiến sĩ - Bác sĩ <br>
+                                Bazhanov Vitalii Nikolaevich
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-12 c-12 favourite-oder-tablet">
+                        <div class="container-exper__city container-exper__city--star">
+                            <div class="star-favorite">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="container-exper__city-body">
+                                <div class="container-exper__city-img container-exper__city-img2"></div>
+                            </div>
+                        </div>
+                        <div class="container-exper__city-name">
+                            <a href="#">
+                                Giáo sư <br>
+                                Ermilova Irina Aleksandrovna
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="container-exper__city">
+                            <div class="star-favorite">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="container-exper__city-body">
+                                <div class="container-exper__city-img container-exper__city-img3"></div>
+                            </div>
+                        </div>
+                        <div class="container-exper__city-name">
+                            <a href="#">
+                                Bác sĩ <br>
+                                Sadikova Dilorom Ilkhamovna
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phần comment -->
+            <div class="grid wide">
+                <div class="container__service">
+                    <div class="container-text__wrap">
+                        <h2 class="container-text__title-extra">KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="container-comment__city-body--img">
+                            <img src="./assets/img/comment/Card_Hovered.png" alt="image">
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="container-comment__city-body--title">
+                            <div class="container-text__wrap">
+                                <h2 class="container-text__title-base">Hương Tràm</h2>
+                                <p class="container-text__items">Ca sĩ</p>
+                                <p class="container-text__items">
+                                    Cuối cùng Tràm đã tìm lại được đôi mắt Full HD sau bao <br>
+                                    nhiêu năm đeo kính cận. Quá trình mổ cận diễn ra <br>
+                                    nhanh chóng và chuyên nghiệp, đặc biệt là không hề đau <br>
+                                    chút nào. Tràm xin gửi lời cảm ơn đến các chuyên <br>
+                                    gia bác sĩ, nhân viên Bệnh viện Mắt Quốc Việt - Nga đã <br>
+                                    đồng hành cùng Tràm suốt nửa năm, từ khi điều trị viêm <br>
+                                    giác mạc sâu đến khi mổ cận thị tìm lại đôi mắt sáng <br>
+                                    khỏe” - Nữ ca sĩ chia sẻ.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
